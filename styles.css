@@ -25,6 +25,7 @@ button{
     background-color: gray;
     overflow: hidden;
     border-radius: 15px;
+    box-shadow : 3px 2px 1px black ;
 }
 #input{
     width: 100%;
