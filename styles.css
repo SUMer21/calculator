@@ -1,0 +1,60 @@
+button{
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+
+}
+#buttons{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 15px;
+    margin: 0px;
+
+}
+#container{
+    width: 500px;
+    background-color: gray;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#input{
+    width: 100%;
+    margin: 0px;
+    height: 100px;
+    border: transparent;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 50px;
+    font-weight: bold;
+}
+body{
+    margin: 0%;
+    padding: 5%;
+    margin-left: 300px;
+}
+button:hover{
+    background-color: rgb(174, 173, 173);
+}
+button:active{
+    background-color: hsl(0, 1%, 80%);
+
+}
+#operator{
+    background-color: hsl(39, 100%, 60%);
+}
+#operator:hover{
+    background-color: hsl(39, 100%, 80%);
+}
+#operator:active{
+    background-color:hsl(39, 100%, 90%); ;
+}
