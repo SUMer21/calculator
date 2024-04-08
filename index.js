@@ -1,5 +1,5 @@
 const Display = document.getElementById('input');
-let sound = document.getElementById('buttons');
+let sound = document.getElementsByClassName('sounds');
 
 function  display(input){
     Display.value += input;
