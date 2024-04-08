@@ -1,5 +1,5 @@
 const Display = document.getElementById('input');
-
+let sound = document.getElementById('buttons');
 
 function  display(input){
     Display.value += input;
@@ -17,4 +17,9 @@ function calculate() {
 
 function clearDisplay() {
     Display.value = " ";
+}
+sound.addEventListener('click', fun());
+function fun() {
+    var audio = new Audio('sound.mp3');
+    audio.play();
 }
